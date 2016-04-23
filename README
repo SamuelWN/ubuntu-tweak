@@ -6,6 +6,7 @@ Introduction
 
 Ubuntu Tweak is a tool that makes it easy to configure your system and desktop settings.
 
+This version does NOT compile on Ubuntu 16.04. I am unable to determine the cause (likely more missing dependancies) 
 
 License
 =======
@@ -15,7 +16,8 @@ Installation
 ============
   Download & install dependancies
   -------------------------------
-    sudo apt-get install python-setuptools python-distutils-extra python-dbus
+    sudo apt-get install python-setuptools python-distutils-extra python-dbus python-aptdaemon python-lxml gir1.2-webkit-3.0 \
+      python-aptdaemon.gtk3widgets gir1.2-gconf-2.0 python-compizconfig 
 
   Build & install Ubuntu Tweak
   ----------------------------
