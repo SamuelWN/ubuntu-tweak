@@ -13,9 +13,9 @@ This program is released under the GNU General Public License (GPL) version 2, s
 
 Installation
 ============
-  Download & install build dependancies
-  -------------------------------------
-    sudo apt-get install python-setuptools python-distutils-extra
+  Download & install dependancies
+  -------------------------------
+    sudo apt-get install python-setuptools python-distutils-extra python-dbus
 
   Build & install Ubuntu Tweak
   ----------------------------
