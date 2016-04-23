@@ -13,5 +13,11 @@ This program is released under the GNU General Public License (GPL) version 2, s
 
 
 How to build & test
-========================
-sudo python setup.py install
+===================
+  Download build dependancies
+  ----------------------------
+    sudo apt-get install python-setuptools python-distutils-extra
+
+  Build and install:
+  ------------------
+    sudo python setup.py install
