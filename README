@@ -11,13 +11,12 @@ License
 =======
 This program is released under the GNU General Public License (GPL) version 2, see the file 'COPYING' for more information.
 
-
-How to build & test
-===================
-  Download build dependancies
-  ----------------------------
+Installation
+============
+  Download & install build dependancies
+  -------------------------------------
     sudo apt-get install python-setuptools python-distutils-extra
 
-  Build and install:
-  ------------------
+  Build & install Ubuntu Tweak
+  ----------------------------
     sudo python setup.py install
